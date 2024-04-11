@@ -19,7 +19,7 @@ try {
   $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
   $mail->Port = 587;
   $mail->Username = 'nap.cbaylosis@gmail.com'; // Replace with your Gmail address
-  $mail->Password = 'NAPbaylosis2024'; // Replace with your Gmail password
+  $mail->Password = ''; // Replace with your Gmail password
   $mail->setFrom($email, $name);
   $mail->addAddress('christiancbaylosis.com'); // Replace with the recipient's email address
   $mail->isHTML(true);
